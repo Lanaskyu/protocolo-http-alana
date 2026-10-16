@@ -1,5 +1,5 @@
 import http from 'http';
-import { route } from './src/routes.js;
+import { route } from './routes.js'
 
 const server = http.createServer(route);
 

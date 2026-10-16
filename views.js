@@ -21,7 +21,7 @@ export function homePage() {
 }
 
 export function aboutPage() {
-     return layout('Sobre', '<h1>S</h1>');
+     return layout('Sobre', '<h1>Sobre nós</h1>');
 
 }
   
@@ -29,6 +29,8 @@ export function contactPage() {
      return layout('Contato', '<h1>Entre em contato</h1>');
 
 }
+
+
 
 export function adminPage() {
   return layout('Admin', '<h1>403 - Acesso não autorizado</h1>');
